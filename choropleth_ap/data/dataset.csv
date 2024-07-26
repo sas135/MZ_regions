@@ -1,0 +1,86 @@
+region_name;region_name_rus;map_region_name;scrap_per;nalog_per;taxi_per;scrap_without_mozen_per;auto_without_mozen_per;nalog_without_mozen_per;taxi_without_mozen_per;option_region_name;type;type_eng
+АДЫГЕЯ РЕСП;Адыгея республика;Adygey;0,00;0;17,00;0,19;0,18;0,15;0,15;Adygea|Adygeya|Adygheya|Republic of Adygeya|Adygeyskaya A.Obl.|Respublika Adygeya;Respublika;Republic
+АЛТАЙ РЕСП;Алтай республика;Altay;1,32;14;6,20;0,75;0,99;1,24;1,24;Altayskiy Kray;Kray;Territory
+АЛТАЙСКИЙ КРАЙ;Алтайский край;Gorno-Altay;0,00;0,00;0,00;0,00;0,00;0,00;0,00;Gorno-Altayskaya A.Obl.|Respublika Altay|Oirot|Republic of Altai;Respublika;Republic
+АМУРСКАЯ ОБЛ;Амурская область;Amur;0,00;25;6,80;0,26;0,89;0,25;0,26;Amurskaya Oblast;Oblast;Region
+АРХАНГЕЛЬСКАЯ ОБЛ;Архангельская область;Arkhangel'sk;0,00;33;7,30;0,70;0,29;0,29;0,30;Arcangelo|Archangel|Archangelsk|Arkhangelskaya Oblast;Oblast;Region
+АСТРАХАНСКАЯ ОБЛ;Астраханская область;Astrakhan';2,08;88;10,80;0,47;0,33;0,29;0,31;Astrachan|Astrakhanskaya Oblast;Oblast;Region
+БАШКОРТОСТАН РЕСП;Башкортостан республика;Bashkortostan;3,45;15;16,50;1,96;1,86;1,61;1,41;Bashkir|Bashkiriya|Bashkirskaya A.S.S.R.|Republic of Bashkortostan|Respublika Bashkortostan;Respublika;Republic
+БЕЛГОРОДСКАЯ ОБЛ;Белгородская область;Belgorod;1,89;9;4,40;0,52;0,76;0,92;0,92;Belgorodskaya Oblast;Oblast;Region
+БРЯНСКАЯ ОБЛ;Брянская область;Bryansk;1,43;0;10,50;0,69;0,27;0,25;0,25;Bryanskaya Oblast;Oblast;Region
+БУРЯТИЯ РЕСП;Бурятия республика;Buryat;2,50;100;2,30;0,39;0,53;0,18;0,24;Buryatiya|Buryat-Mongol A.S.S.R.|Republic of Buryatia|Buryatskaya A.S.S.R.|Respublika;Respublika;Republic
+ВЛАДИМИРСКАЯ ОБЛ;Владимирская область;Vladimir;0,00;18;9,60;1,01;0,55;0,42;0,42;Vladimirskaya Oblast;Oblast;Region
+ВОЛГОГРАДСКАЯ ОБЛ;Волгоградская область;Volgograd;1,12;16;14,30;1,76;1,09;0,57;0,53;Stalingrad|Volgogradskaya Oblast;Oblast;Region
+ВОЛОГОДСКАЯ ОБЛ;Вологодская область;Vologda;0,00;40;6,00;0,98;0,90;0,55;0,57;Vologodskaya Oblast;Oblast;Region
+ВОРОНЕЖСКАЯ ОБЛ;Воронежская область;Voronezh;0,70;24;8,40;1,42;1,10;0,77;1,02;Voronezhskaya Oblast;Oblast;Region
+ДАГЕСТАН РЕСП;Дагестан республика;Dagestan;0,00;14;30,70;0,24;0,42;0,54;0,39;Dagestanskaya A.S.S.R.|Daghestan|Republic of Dagestan|Respublika Dagestan|Dagistan;Respublika;Republic
+ЕВРЕЙСКАЯ АОБЛ;Еврейская автономная область;Yevrey;0,00;0,00;0,00;0,09;0,00;0,04;0,04;Den jødiske autonome oblasten|Evrey|Jewish A.Obl.|Yahudi|Yevreyskaya A.Obl.|Evreyskaya AOb;Avtonomnaya Oblast;Autonomous Region
+Забайкальский край;Забайкальский край;Zabaikal;0,00;0,00;2,20;0,32;0,33;0,25;0,25;Zabaikalskiy Krai;Oblast;Region
+ИВАНОВСКАЯ ОБЛ;Ивановская область;Ivanovo;0,00;29,00;5,80;2,09;0,44;0,50;0,50;Ivanovskaya Oblast;Oblast;Region
+ИНГУШЕТИЯ РЕСП;Ингушетия республика;Ingush;0,00;0,00;11,00;0,19;0,08;0,11;0,13;Ingouchie|Inguchétia|Inguschetien|Ingushetia|Ingushetiya|Ingush Republic|Ingushskaya Respublika|Respublika Ingushetiya;Respublika;Republic
+ИРКУТСКАЯ ОБЛ;Иркутская область;Irkutsk;1,89;26,00;7,00;1,04;1,39;1,12;1,12;Irkutskaya Oblast;Oblast;Region
+КАБАРДИНО-БАЛКАРСКАЯ РЕСП;Кабардино-Балкарская республика;Kabardin-Balkar;0,00;10,00;11,60;0,39;0,06;0,23;0,21;Kabardin A.S.S.R.|Kabardino-Balkarskaya A.S.S.R.|Kabardino-Balkariya|Kabardino-Balkarsk|Kabard|Kabardino-Balkarskaya Republic;Respublika;Republic
+КАЛИНИНГРАДСКАЯ ОБЛ;Калининградская область;Kaliningrad;5,66;30,00;11,30;0,50;1,03;0,94;0,92;Kaliningradskaya Oblast;Oblast;Region
+КАЛМЫКИЯ РЕСП;Калмыкия республика;Kalmyk;0,00;14,00;16,20;0,15;0,14;0,12;0,11;Kalmykiya|Khalmg Tangch|Republic of Kalmykia|Kalmytskaya A.S.S.R.|Respublika Kalmykiya;Respublika;Republic
+КАЛУЖСКАЯ ОБЛ;Калужская область;Kaluga;0,00;13,00;13,50;0,51;0,32;0,48;0,44;Kaluzhskaya Oblast;Oblast;Region
+КАМЧАТСКИЙ КРАЙ;Камчатский край;Kamchatka;0,00;100,00;0,00;0,35;0,16;0,09;0,10;Kamï¿½atka|Kamchatskaya Oblast;Oblast;Region
+КАРАЧАЕВО-ЧЕРКЕССКАЯ РЕСП;Карачаево-Черкесская республика;Karachay-Cherkess;0,00;25,00;11,10;0,08;0,06;0,07;0,07;Karaçay-Çerkes|Karachay-Cherkessiya|Karachayevo-Cherkesskaya Respublika|Karachayevo-Cherkessiya|Karachayevo-Cherkess Republic|K;Respublika;Republic
+КАРЕЛИЯ РЕСП;Карелия республика;Karelia;2,86;25,00;9,80;0,34;0,37;0,21;0,21;Karelian A.S.S.R.|Karelo-Finnish A.S.S.R.|Karel'skaya A.S.S.R.|Olonets|Olonetskaya G.|Kareliya|Republic of Karelia;Respublika;Republic
+КЕМЕРОВСКАЯ ОБЛ;Кемеровская область;Kemerovo;0,61;25,00;4,90;1,63;1,00;0,84;0,86;Kemerovskaya Oblast;Oblast;Region
+КИРОВСКАЯ ОБЛ;Кировская область;Kirov;0,00;6,00;11,20;0,81;0,44;0,43;0,41;Vyatka|Vyatskaya G.|Kirovskaya Oblast;Oblast;Region
+КОМИ РЕСП;Коми республика;Komi;0,00;14,00;12,30;0,50;0,23;0,22;0,21;Komi A.S.S.R.|Republic of Komi|Respublika Komi;Respublika;Republic
+КОСТРОМСКАЯ ОБЛ;Костромская область;Kostroma;0,00;22,00;16,10;0,47;0,28;0,16;0,15;Kostromskaya Oblast;Oblast;Region
+КРАСНОДАРСКИЙ КРАЙ;Краснодарский край;Krasnodar;1,07;23,00;10,20;1,85;3,52;3,15;3,08;Cossacks of the Black Sea|Kuban|Kubanskaya|Yekaterinodar|Krasnodarskiy Kray;Kray;Territory
+КРАСНОЯРСКИЙ КРАЙ;Красноярский край;Krasnoyarsk;0,00;25,00;6,90;1,45;2,05;1,53;1,53;Krasnoyarskiy Kray|Yeniseisk|Yeniseyskaya G.;Kray;Territory
+КУРГАНСКАЯ ОБЛ;Курганская область;Kurgan;0,00;50,00;5,80;1,02;0,21;0,24;0,24;Kurganskaya Oblast;Oblast;Region
+КУРСКАЯ ОБЛ;Курская область;Kursk;0,00;13,00;21,80;0,90;0,24;0,28;0,24;Kurskaya Oblast;Oblast;Region
+ЛЕНИНГРАДСКАЯ ОБЛ;Ленинградская область;Leningrad;1,92;31,00;10,50;1,02;0,44;0,98;0,97;Saint Petersburg|Sankt-Peterburgskaya G.|Leningradskaya Oblast;Oblast;Region
+ЛИПЕЦКАЯ ОБЛ;Липецкая область;Lipetsk;5,77;33,00;13,40;0,49;0,40;0,33;0,31;Lipetskaya Oblast;Oblast;Region
+МАГАДАНСКАЯ ОБЛ;Магаданская область;Magadan;28,57;0,00;10,00;0,05;0,04;0,05;0,05;Magadanskaya Oblast;Oblast;Region
+МАРИЙ ЭЛ РЕСП;Марий Эл республика;Mariy-El;0,00;16,00;29,40;0,22;0,19;0,27;0,20;Mari|Mari-El|Republic of Mari El|Mariyskaya A.S.S.R.|Respublika Mariy El;Respublika;Republic
+МОРДОВИЯ РЕСП;Мордовия республика;Mordovia;0,00;0,00;17,20;0,52;0,23;0,23;0,21;Mordov|Mordvian Autonomous Republic|Mordvinia|Republic of Mordovia|Mordovian A.S.S.R.;Respublika;Republic
+МОСКВА Г;Москва;Moscow City;0,45;30,00;2,20;13,13;19,88;29,46;30,19;;Gorod;City
+МОСКОВСКАЯ ОБЛ;Московская область;Moskva;0,66;31,00;5,10;4,51;5,27;6,77;6,90;Mosca|Moscou|Moscow|Moskau|Moskova|Moskovskaya;Oblast;Region
+МУРМАНСКАЯ ОБЛ;Мурманская область;Murmansk;0,00;33,00;16,70;0,44;0,23;0,30;0,28;Murmanskaya Oblast;Oblast;Region
+НЕНЕЦКИЙ АО;Ненецкий автономный округ;Nenets;0,00;0,00;100,00;0,00;0,00;0,00;0,00;Nenetskiy A.Okr.|Nenetskiy Aok;Avtonomnyy Okrug;Autonomous Province
+НИЖЕГОРОДСКАЯ ОБЛ;Нижегородская область;Nizhegorod;0,42;24,00;10,10;2,36;3,54;1,91;1,80;Gor'kiy|Gor'kovskaya|Gorky|Nizhegorodskaya|Nizhniy-Novgorod|Nizhegorodskaya Oblast;Oblast;Region
+НОВГОРОДСКАЯ ОБЛ;Новгородская область;Novgorod;0,00;0,00;8,50;0,46;0,30;0,19;0,24;Novgorodskaya Oblast;Oblast;Region
+НОВОСИБИРСКАЯ ОБЛ;Новосибирская область;Novosibirsk;0,57;17,00;8,60;1,74;2,08;2,98;2,85;Novosibirskaya Oblast;Oblast;Region
+ОМСКАЯ ОБЛ;Омская область;Omsk;0,00;14,00;14,20;0,62;0,86;0,94;0,90;Omskaya Oblast;Oblast;Region
+ОРЕНБУРГСКАЯ ОБЛ;Оренбургская область;Orel;4,76;14,00;20,40;0,60;0,19;0,14;0,15;Orlovskaya|Or'ol|Oryol|Orlovskaya Oblast;Oblast;Region
+ОРЛОВСКАЯ ОБЛ;Орловская область;Orenburg;4,38;25,00;16,70;1,31;0,63;0,54;0,50;Chkalov|Orenburgskaya|Orenburgskaya Oblast;Oblast;Region
+ПЕНЗЕНСКАЯ ОБЛ;Пензенская область;Penza;1,90;17,00;15,30;1,03;0,42;0,45;0,40;Penzenskaya Oblast;Oblast;Region
+ПЕРМСКИЙ КРАЙ;Пермский край;Perm';1,58;23,00;11,60;3,11;1,72;1,26;1,18;Molotov|Permskaya Oblast;Kray;Territory
+ПРИМОРСКИЙ КРАЙ;Приморский край;Primor'ye;2,08;27,00;4,40;0,94;6,20;1,08;1,14;Küsten-Gebiet|Maritime Territory|Primorsk|Primorskiy Kray;Kray;Territory
+ПСКОВСКАЯ ОБЛ;Псковская область;Pskov;0,00;30,00;13,30;0,27;0,28;0,21;0,21;Pskovskaya Oblast;Oblast;Region
+Республика Крым;Республика Крым;Crimea;0,00;25,00;2,20;0,00;0,00;0,61;0,62;Crimée|Criméia|Krim|Krymskaya Respublika|Respublika Krym;Autonomous Republic;Autonomous Republic
+РОСТОВСКАЯ ОБЛ;Ростовская область;Rostov;1,31;31,00;10,90;3,01;1,66;1,31;1,30;Province of the Don Cossacks|Provinz des Donischen Heeres|Voyska Donskovo|Rostovskaya Oblast;Oblast;Region
+РЯЗАНСКАЯ ОБЛ;Рязанская область;Ryazan';1,98;14,00;6,20;0,99;0,56;0,39;0,38;Ryazanskaya Oblast|Ryazanskaya Oblast;Oblast;Region
+САМАРСКАЯ ОБЛ;Самарская область;Samara;2,50;12,00;7,40;1,95;3,27;3,02;2,97;Kuybyshev|Kuybyshevskaya|Samarskaya Oblast;Oblast;Region
+САНКТ-ПЕТЕРБУРГ Г;Санкт-Петербург;Saint Petersburg City;0,79;24,00;6,90;7,51;6,06;7,35;7,37;Sankt-Peterburg gorsovet;Gorsovet;City
+САРАТОВСКАЯ ОБЛ;Саратовская область;Saratov;1,57;27,00;14,50;1,88;1,02;0,79;0,75;Saratovskaya Oblast;Oblast;Region
+САХА /ЯКУТИЯ/ РЕСП;Саха (Якутия) республика;Sakha;3,13;69,00;15,20;0,31;0,23;0,35;0,31;Republic of Sakha|Yakutia-Sakha|Yakutsk|Yakut A.S.S.R.|Yakutskaya A.S.S.R.|Respublika Sakha;Respublika;Republic
+САХАЛИНСКАЯ ОБЛ;Сахалинская область;Sakhalin;28,57;100,00;0,00;0,05;0,27;0,15;0,17;Sakhalinskaya Oblast;Oblast;Region
+СВЕРДЛОВСКАЯ ОБЛ;Свердловская область;Sverdlovsk;1,42;20,00;5,50;6,92;2,88;3,86;3,89;Yekaterinburg|Sverdlovskaya Oblast;Oblast;Region
+Севастополь Г;Севастополь;Sevastopol';0,00;100,00;3,60;0,00;0,00;0,15;0,15;Sebastopol;Autonomous Republic;Autonomous Republic
+СЕВЕРНАЯ ОСЕТИЯ - АЛАНИЯ РЕСП;Северная Осетия-Алания республика;North Ossetia;0,00;32,00;58,90;0,15;0,08;0,12;0,07;Kuzey Osetya|Respublika Severnaya Osetiya|Severnaya Osetiya-Alaniya|North Ossetian A.S.S.R.|Republic of North Osetia-Alania;Respublika;Republic
+СМОЛЕНСКАЯ ОБЛ;Смоленская область;Smolensk;1,87;17,00;6,00;1,05;0,62;0,68;0,67;Smolenskaya Oblast;Oblast;Region
+СТАВРОПОЛЬСКИЙ КРАЙ;Ставропольский край;Stavropol';0,68;32,00;20,90;1,47;1,13;0,66;0,61;Stavropol'skiy Kray|Stavropolskiy Kray;Kray;Territory
+ТАМБОВСКАЯ ОБЛ;Тамбовская область;Tambov;1,39;0,00;5,00;0,71;0,32;0,21;0,21;Tambovskaya Oblast;Oblast;Region
+ТАТАРСТАН РЕСП;Татарстан республика;Tatarstan;2,87;21,00;4,10;1,69;4,89;3,37;3,43;Kazan|Kazanskaya G.|Tatar A.S.S.R.|Tatarskaya A.S.S.R.|Republic of Tatarstan|Respublika Tatars;Respublika;Republic
+ТВЕРСКАЯ ОБЛ;Тверская область;Tver';1,39;50,00;4,60;0,71;0,61;0,46;0,48;Kalinin|Kalininskaya|Tverskaya Oblast;Oblast;Region
+ТОМСКАЯ ОБЛ;Томская область;Tomsk;1,82;29,00;4,90;0,54;0,37;0,61;0,62;Tomskaya Oblast;Oblast;Region
+ТУЛЬСКАЯ ОБЛ;Тульская область;Tula;2,27;36,00;8,40;0,86;0,46;0,48;0,49;Tul'skaya|Tulskaya Oblast;Oblast;Region
+ТЫВА РЕСП;Тыва республика;Tuva;0,00;0,00;0,00;0,03;0,05;0,06;0,06;Respublika Tyva|Republic of Tuva|Tyva|Tuvinskaya A.S.S.R.|Republic of Tyva;Respublika;Republic
+ТЮМЕНСКАЯ ОБЛ;Тюменская область;Tyumen';2,61;0,00;7,20;1,12;1,46;1,00;0,97;Tobol'sk|Tobol'skaya G.|Tyumenskaya Oblast;Oblast;Region
+УДМУРТСКАЯ РЕСП;Удмуртская Республика;Udmurt;3,80;21,00;7,60;0,76;1,39;0,77;0,77;Udmurtiya|Udmurt Republic|Udmurtskaya A.S.S.R.|Udmurtskaya Respublika;Respublika;Republic
+УЛЬЯНОВСКАЯ ОБЛ;Ульяновская область;Ul'yanovsk;0,00;29,00;12,80;0,87;0,64;0,57;0,55;Simbirsk|Simbirskaya G.|Ul'yanovskaya Oblast;Oblast;Region
+ХАБАРОВСКИЙ КРАЙ;Хабаровский край;Khabarovsk;0,00;50,00;5,40;0,89;1,18;0,86;0,89;Khabarovskiy Kray;Kray;Territory
+ХАКАСИЯ РЕСП;Хакасия республика;Khakass;0,00;20,00;10,10;0,28;0,25;0,20;0,19;Khakassiya|Republic of Khakasia|Khakasskaya A.Obl.|Respublika Khakasiya|Republic of Khakasia;Respublika;Republic
+ХАНТЫ-МАНСИЙСКИЙ - ЮГРА АО;Ненецкий автономный округ;Khanty-Mansiy;0,00;42,00;10,10;0,91;0,73;0,63;0,63;Khanty-Mansiysk|Khanty-Mansiyskiy A.Okr.|Khanty-Mansiyskiy A.Okr.-Yugra|Khanty-Mansiyskiy Aok;Avtonomnyy Okrug;Autonomous Province
+ЧЕЛЯБИНСКАЯ ОБЛ;Челябинская область;Chelyabinsk;0,23;23,00;7,50;4,34;2,75;2,30;2,30;Chelyabinskaya Oblast;Oblast;Region
+ЧЕЧЕНСКАЯ РЕСП;Чеченская республика;Chechnya;7,14;0,00;15,90;0,13;0,24;0,24;0,21;Cecenia|Chechenia|Chechênia|Tchetchnia|Chechen-Ingush A.S.S.R.|Checheno-Ingushetia|Checheno-Ingushetia;Respublika;Republic
+ЧУВАШСКАЯ - ЧУВАШИЯ РЕСП;Чувашская Республика;Chuvash;0,00;27,00;10,50;0,52;0,40;0,47;0,46;Chuvashskaya A.S.S.R.|Chuvashskaya Respublika|Chuvashiya|Chuvash Republic;Respublika;Republic
+ЧУКОТСКИЙ АО;Ханты-Мансийский автономный округ-Югра;Chukot;0,00;0,00;0,00;0,08;0,00;0,02;0,02;Chukotka|Chukotskiy Aok;Avtonomnyy Okrug;Autonomous Province
+ЯМАЛО-НЕНЕЦКИЙ АО;Ямало-Ненецкий автономный округ;Yamal-Nenets;0,00;15,00;17,20;0,54;0,10;0,23;0,20;Yamalo-Nenetskiy A. Okrug;Avtonomnyy Okrug;Autonomous Province
+ЯРОСЛАВСКАЯ ОБЛ;Ярославская область;Yaroslavl';2,25;22,00;2,80;0,87;0,89;0,85;0,88;Yaroslavskaya;Oblast;Region
