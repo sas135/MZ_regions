@@ -1,10 +1,10 @@
-var width = 1440, // размер svg элемента
-	height = 750
+var width = 1540, // размер svg элемента
+	height = 850
 
 var color = d3.scale
 	.linear()
 	.range(['#ffffff', '#001990']) //от какого и до какого цвета
-	.domain([0, 100]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
+	.domain([0, 50]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
 
 var div = d3
 	.select('#my_dataviz') // добавляем div для подсказок (tooltip)
@@ -32,8 +32,8 @@ var path = d3.geo.path().projection(projection)
 //Reading map file and data
 
 queue()
-	.defer(d3.json, 'https://vittuwork.github.io/choropleth_ap/map/russia.json') // подключение topojson с картой
-	.defer(d3.csv, 'https://vittuwork.github.io/choropleth_ap/data/dataset.csv') // подключение датасета
+	.defer(d3.json, 'russia.json') // подключение topojson с картой
+	.defer(d3.csv, 'dataset.csv') // подключение датасета
 	.await(ready)
 
 //Начинаем рисовать картограмму
@@ -43,7 +43,7 @@ function ready(error, map, data) {
 	var nameById = {}
 
 	data.forEach(function (d) {
-		rateById[d.map_region_name] = +d.scrap
+		rateById[d.map_region_name] = +d.scrap_per
 		nameById[d.map_region_name] = d.region_name_rus
 	})
 
@@ -65,6 +65,7 @@ function ready(error, map, data) {
 			return color(rateById[d.properties.NAME_1])
 		})
 		.style('opacity', 0.8)
+		.style('stroke', '#333333')
 
 		// добавление событий при наведении мыши на объект
 		.on('mouseover', function (d) {
@@ -87,41 +88,56 @@ function ready(error, map, data) {
 			div.transition().duration(300).style('opacity', 0)
 		})
 
+	//Добавление процентов на карту
+	var stat = svg
+		.selectAll('g.stat')
+		.data(data)
+		.enter()
+		.append('g')
+		.attr('class', 'city')
+		.attr('transform', function (d) {
+			return 'translate(' + projection([d.lon, d.lat]) + ')'
+		})
+
+	stat
+		.append('text') // Добавление процентов
+		.attr('x', 2)
+		.text(function (d) {
+			return d.scrap_per + '%'
+		})
+
 	// добавление, 10 самых больших городов, на карту
 
-	d3.tsv(
-		'https://vittuwork.github.io/choropleth_ap/data/cities.tsv',
-		function (error, data) {
-			var city = svg
-				.selectAll('g.city')
-				.data(data)
-				.enter()
-				.append('g')
-				.attr('class', 'city')
-				.attr('transform', function (d) {
-					return 'translate(' + projection([d.lon, d.lat]) + ')'
-				})
+	d3.tsv('cities.tsv', function (error, data) {
+		var city = svg
+			.selectAll('g.city')
+			.data(data)
+			.enter()
+			.append('g')
+			.attr('class', 'city')
+			.attr('transform', function (d) {
+				return 'translate(' + projection([d.lon, d.lat]) + ')'
+			})
 
-			city
-				.append('circle') // добавление точек
-				.attr('r', 2)
-				.style('fill', 'red')
-				.style('opacity', 0.75)
+		city
+			.append('circle') // добавление точек
+			.attr('r', 2)
+			.style('fill', 'red')
+			.style('opacity', 0.75)
 
-			city
-				.append('text') // // добавление названий городов
-				.attr('x', 5)
-				.text(function (d) {
-					return d.City
-				})
-		}
-	)
+		city
+			.append('text') // // добавление названий городов
+			.attr('x', 5)
+			.text(function (d) {
+				return d.City
+			})
+	})
 } // <-- Закончили рисовать картограмму
 
 // Добавление легенды
 var colorScale = d3.scale
 	.linear()
-	.domain([0, 100]) // перечень значений из датасета (мин.–макс.), по которым надо добавлять цвет
+	.domain([0, 50]) // перечень значений из датасета (мин.–макс.), по которым надо добавлять цвет
 	.range(['#ffffff', '#2b3990']) //Цвет, от какого и до какого нужно сделать растяжку
 
 // append a defs (for definition) element to your SVG
@@ -172,7 +188,7 @@ svgLegend
 	.attr('x', 0)
 	.attr('y', 20)
 	.style('text-anchor', 'left')
-	.text('% от всего потребления АП')
+	.text('% от всех возможных клиентов в регионе')
 
 // draw the rectangle and fill with gradient
 svgLegend
@@ -184,13 +200,13 @@ svgLegend
 	.style('fill', 'url(#linear-gradient)')
 
 //create tick marks
-var xLeg = d3.scale.linear().domain([0, 100]).range([0, 289])
+var xLeg = d3.scale.linear().domain([0, 50]).range([0, 289])
 
 var axisLeg = d3.svg
 	.axis(xLeg)
 	.scale(xLeg)
 	.tickSize(13)
-	.tickValues([0, 100])
+	.tickValues([0, 50])
 	.tickFormat(function (n) {
 		return n + '%'
 	})
